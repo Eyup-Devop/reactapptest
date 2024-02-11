@@ -1,0 +1,7 @@
+kind: Kustomization
+resources:
+  - frontend.yaml
+  - hpa-frontend.yaml
+
+namespace: default
+apiVersion: kustomize.config.k8s.io/v1beta1
